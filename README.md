@@ -1,9 +1,12 @@
 # Tech-Repair-Shop-System
 
+
 from abc import ABC, abstractmethod
 
 #Requirement 1: Blueprint 
+
 class RepairService(ABC):
+
     def __init__(self, service_name, labor_cost):
         self.__service_name = service_name
         self.__labor_cost = labor_cost
